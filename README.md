@@ -92,7 +92,7 @@ public class GENESISANDTHETROOPS {
         System.out.println("\t║                              SYSTEM READY!                                   ║");
         System.out.println("\t║                                                                              ║");
         System.out.println("\t║   ┌─────────────────────────────────────────────────────────────────────┐    ║");
-        System.out.println("\t║   │  All systems operational. Proceeding to main menu...                │    ║");
+        System.out.println("\t║   │        All systems operational. Proceeding to main menu...          │    ║");
         System.out.println("\t║   └─────────────────────────────────────────────────────────────────────┘    ║");
         System.out.println("\t╚══════════════════════════════════════════════════════════════════════════════╝" + RESET);
         Thread.sleep(1500);
@@ -114,13 +114,13 @@ public class GENESISANDTHETROOPS {
             System.out.println("\t║                         SYSTEM DASHBOARD                                     ║");
             System.out.println("\t║                                                                              ║");
             System.out.println("\t║   ┌─────────────────────────────────────────────────────────────────────┐    ║");
-            System.out.println("\t║   │  Welcome to GENESISANDTHETROOPS Calculator System!                  │    ║");
-            System.out.println("\t║   │  Select an option to proceed.                                       │    ║");
+            System.out.println("\t║   │         Welcome to GENESISANDTHETROOPS Calculator System!           │    ║");
+            System.out.println("\t║   │                  Select an option to proceed.                       │    ║");
             System.out.println("\t║   └─────────────────────────────────────────────────────────────────────┘    ║");
             System.out.println("\t║                                                                              ║");
             System.out.println("\t║   ┌─────────────────────────────────────────────────────────────────────┐    ║");
             System.out.println("\t║   │  [1]  Calculator     - Access advanced math tools                   │    ║");
-            System.out.println("\t║   │  [2]  About         - View system information                       │    ║");
+            System.out.println("\t║   │  [2]  About          - View system information                      │    ║");
             System.out.println("\t║   │  [3]  Exit           - Shut down the system                         │    ║");
             System.out.println("\t║   └─────────────────────────────────────────────────────────────────────┘    ║");
             System.out.println("\t║                                                                              ║");
@@ -136,8 +136,8 @@ public class GENESISANDTHETROOPS {
                     case 3 -> outingScreen();
                     default -> {
                         System.out.println(RED + "\n\t╔══════════════════════════════════════╗");
-                        System.out.println("\t║             INVALID CHOICE!          ║");
-                        System.out.println("\t║  Please select 1, 2, or 3.           ║");
+                        System.out.println("\t║            INVALID CHOICE!           ║");
+                        System.out.println("\t║       Please select 1, 2, or 3.      ║");
                         System.out.println("\t╚══════════════════════════════════════╝" + RESET);
                         System.out.print(YELLOW + "\n\tPress Enter to try again..." + RESET);
                         sc.nextLine(); // Clear buffer
@@ -149,7 +149,7 @@ public class GENESISANDTHETROOPS {
                 sc.nextLine();
                 System.out.println(RED + "\n\t╔══════════════════════════════════════╗");
                 System.out.println("\t║             INVALID INPUT!           ║");
-                System.out.println("\t║  Please enter a valid number.        ║");
+                System.out.println("\t║      Please enter a valid number.    ║");
                 System.out.println("\t╚══════════════════════════════════════╝" + RESET);
                 System.out.print(YELLOW + "\n\tPress Enter to try again..." + RESET);
                 sc.nextLine(); // Wait for user
@@ -166,14 +166,14 @@ public class GENESISANDTHETROOPS {
             System.out.println("\t║                            CALCULATOR DASHBOARD                            ║");
             System.out.println("\t║                                                                              ║");
             System.out.println("\t║   ┌─────────────────────────────────────────────────────────────────────┐    ║");
-            System.out.println("\t║   │  Dive into advanced math tools and unleash your inner genius!       │    ║");
+            System.out.println("\t║   │    Dive into advanced math tools and unleash your inner genius!     │    ║");
             System.out.println("\t║   └─────────────────────────────────────────────────────────────────────┘    ║");
             System.out.println("\t╚══════════════════════════════════════════════════════════════════════════════╝" + RESET);
 
             // ASCII Art: Calculator Menu Theme
             System.out.println(BLUE + "\n\t\t\t   _____________________");
             System.out.println("\t\t\t  |  _________________  |");
-            System.out.println("\t\t\t  | | CALC MENU       | |");
+            System.out.println("\t\t\t  | |    CALC MENU    | |");
             System.out.println("\t\t\t  | |_________________| |");
             System.out.println("\t\t\t  |  ___ ___ ___   ___  |");
             System.out.println("\t\t\t  | | 1 | 2 | 3 | | + | |");
